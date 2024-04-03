@@ -20,7 +20,6 @@ const oklchToHex = str => {
     format: 'hex',
   })
 }
-
 // https://astro.build/config
 export default defineConfig({
   site: 'https://lesmorts.github.io/',
