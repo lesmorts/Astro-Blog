@@ -7,12 +7,12 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
+  title: 'LeVent',
+  subtitle: 'LesMorts',
   lang: 'en',
-  themeHue: 250,
+  themeHue: 270,
   banner: {
-    enable: false,
+    enable: true,
     src: 'assets/images/demo-banner.png',
   },
 }
@@ -31,24 +31,14 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/avatar.webp',
+  name: 'Levent',
+  bio: 'Learning GIS, write to remember',
   links: [
-    {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/lesmorts',
     },
   ],
 }
