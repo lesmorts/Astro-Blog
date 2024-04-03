@@ -9,11 +9,11 @@ import { LinkPreset } from './types/config'
 export const siteConfig: SiteConfig = {
   title: 'LeVent',
   subtitle: 'LesMorts',
-  lang: 'en',
+  lang: 'zh-cn',
   themeHue: 270,
   banner: {
     enable: true,
-    src: 'assets/images/demo-banner.png',
+    src: 'assets/images/banner.jpg',
   },
 }
 
